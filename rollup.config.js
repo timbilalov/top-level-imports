@@ -8,6 +8,7 @@ export default [
     output: {
       file: 'dist/rollup/tests.js',
       format: 'iife',
+      freeze: false,
     },
     plugins: [
       commonjs(),

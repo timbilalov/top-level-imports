@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "outDir": "dist/rollup/",
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "module": "esnext",
+    "noUnusedLocals": true,
+    "target": "es2017",
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "jsx": "react-jsx",
+    "jsxImportSource": "preact",
+    "strict": true,
+    "sourceMap": false,
+    "skipLibCheck": true
+  }
+}
